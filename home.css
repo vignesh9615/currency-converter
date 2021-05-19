@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:635px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    font-size: 120%;
+}
+.home-page {
+    position: relative;
+    opacity: 20%;
+    background-color: white;
+    border-radius: 17px;
+    width: 600px;
+    height: 600px;
+}
+.table{
+    position: absolute;
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 45.5%;
+  left: 29.5%;
+}
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+.homes{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.design{
+    background-color: #222;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 80px;
+    height: 50px;
+    opacity: 60%;
+    color: #fff;
+    cursor: pointer;
+}
+.design:hover{
+    font-size: 10px;
+}
