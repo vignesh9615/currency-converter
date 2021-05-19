@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:635px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
+}
+.whole {
+  position: relative;
+  opacity: 40%;
+  background-color: black;
+  border-radius: 17px;
+  width: 400px;
+  height: 200px;
+}
+.currency{
+  border-radius: 14px;
+  border: 1px solid white;
+  width: 200px; 
+  height: 30px;
+  margin: 5px;
+  font-size: large;
+  position: absolute;
+  top: 20%;
+  left: 47%;
+  color: #fff;
+  background-color: #7c7c7c2b;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.value_show {
+  border-radius: 10px;
+  width: 70px;
+  height: 35px;
+  background: white;
+  border: 1px solid black;
+  font-weight: 900;
+  cursor: pointer;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+}
+.currency1{
+  position: absolute;
+  border-radius: 14px;
+  background-color: #7c7c7c2b;
+  border: 1px solid white;
+  width: 200px; 
+  height: 30px;
+  margin: 5px;
+  font-size: large;
+  position: absolute;
+  top: 75%;
+  left: 47%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.scroll{
+  position: absolute;
+  bottom: 73%;
+  left: 4%;
+}
+.scroll1{
+  position: absolute;
+  bottom: 18%;
+  left: 4%;
+}
+.home-page{
+  position: fixed;
+    top: 0%;
+    left: 0%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.design{
+  background-color: #222;
+  border-radius: 10px;
+  border: 1px solid;
+  width: 60px;
+  height: 50px;
+  opacity: 60%;
+  color: #fff;
+  cursor: pointer;
+}
+.design:hover{
+  font-size: 10px;
+}
