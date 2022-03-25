@@ -1,0 +1,50 @@
+        body {
+            display: flexbox;
+        }
+
+        .nav {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: medium;
+            font-weight: bold;
+            background-color: rgb(62, 73, 67);
+            justify-content: flex-end;
+        }
+
+        .nav a {
+            color: white;
+        }
+
+        .nav a:hover {
+            color: rgb(150, 117, 150);
+            cursor: pointer;
+        }
+
+        .box {
+            margin: 18%;
+            justify-content: center;
+
+        }
+
+        .box select {
+            margin-left: 15px;
+            padding: 3px;
+            padding-left: 50px;
+
+        }
+
+        .box input {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 80px;
+        }
+
+        .material-icons {
+            margin-left: 25px;
+        }
+
+        .val {
+            margin-left: 200px;
+        }
